@@ -47,6 +47,7 @@
   }
   footer a{
     color: white;
+    background-color: lightblue;
   }
   footer a:hover{
     color: orange;
