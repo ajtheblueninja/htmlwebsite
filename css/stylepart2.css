@@ -15,7 +15,7 @@
     text-align: center;
   }
   header h1{
-    text-shadow: 2px 2px 2px slategrey;
+    text-shadow: 2px 2px 2px black;
     margin: 8px 0;
     
   }
@@ -27,7 +27,7 @@
   header li{
     list-style: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 18px;
   }
   header a{
     padding: 10px;
@@ -49,12 +49,12 @@
     color: white;
   }
   footer a:hover{
-    color: orange;
+    color: purple;
     background-color:white;
   }
   main{
     background-color:lightblue;
-    width: 80%;
+    width: 100%;
     text-align: center;
     margin: 0 auto;
     padding: 20px;
