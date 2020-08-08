@@ -15,6 +15,6 @@ if(hourNow > 18) {
     greeting = 'Welcome!';
 }
 
-document.write('<h2>' + greeting + '</h2>');
+document.write('<h1>' + greeting + '</h1>');
 
 console.log(This file is connected and ready to return.);

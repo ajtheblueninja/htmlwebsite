@@ -1,4 +1,4 @@
 var hourNow = today.getHours
 var minuteNow = today.getMinutes
 
-document.write('<h1>' hourNow + ":" + minuteNow '</h1>');
+document.write('<h2>' hourNow + ":" + minuteNow '</h2>');
