@@ -1,9 +1,11 @@
+'use strict';
 var today = new Date();
-var hourNow = today.getHours();
-var greeting;
-var userName = prompt('Please Enter Your Name.')
 
-alert('hello' + userName + 'click ok to proceed');
+var hourNow = today.getHours();
+
+var greeting;
+
+var userName = prompt('Please Enter Your Name.')
 
 if(hourNow > 18) {
     greeting = 'Good Evening!';
@@ -15,6 +17,6 @@ if(hourNow > 18) {
     greeting = 'Welcome!';
 }
 
-document.write('<h1>' + greeting + '</h1>');
+document.write(greeting + " " + userName);
 
-console.log(This file is connected and ready to return.);
+alert('hello ' + userName + ' click ok to proceed');
