@@ -17,6 +17,6 @@ if(hourNow > 18) {
     greeting = 'Welcome!';
 }
 
-document.write(greeting + " " + userName);
+document.getElementById('placeholder1').textContent = greeting + " " + userName;
 
 alert('hello ' + userName + ' click ok to proceed');
