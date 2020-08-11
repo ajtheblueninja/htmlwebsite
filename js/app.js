@@ -28,6 +28,6 @@ document.getElementById('greeting-placeholder').textContent = greeting + " " + u
 
 document.getElementById('personal-hello').textContent = "Hello " + userName + " this is my page it isn't much but I will continue to add to this site, thanks for coming to my page and have a nice day!";
 
-document.getElementById('math').textContent = "5 * 6 = " + math +" The website did this equation itself";
+document.getElementById('math').textContent = " 5 * 6 = " + math +" The website did this equation itself";
 
 alert('hello ' + userName + ' click ok to proceed');
