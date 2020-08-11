@@ -11,7 +11,7 @@ var number1 = 5;
 
 var number2 = 6;
 
-var math = number1 + number2;
+var math = number1 * number2;
 
 if(hourNow > 18) {
     greeting = 'Good Evening!';
