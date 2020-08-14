@@ -7,11 +7,7 @@ var greeting;
 
 var userName = prompt('Please Enter Your Name.')
 
-var number1 = 5;
-
-var number2 = 6;
-
-var math = number1 * number2;
+var math = 5 * 6;
 
 if(hourNow > 18) {
     greeting = 'Good Evening!';
