@@ -1,4 +1,4 @@
-'use strict';
+/* 'use strict';
 var today = new Date();
 
 var hourNow = today.getHours();
@@ -27,3 +27,4 @@ document.getElementById('personal-hello').textContent = "Hello " + userName + " 
 document.getElementById('math').textContent = " 5 * 6 = " + math +" The website did this equation itself";
 
 alert('hello ' + userName + ' click ok to proceed');
+*/

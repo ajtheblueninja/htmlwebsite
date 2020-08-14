@@ -1,14 +1,20 @@
-var i = 0;
 var words = prompt('Type in some words');
 
 var input = prompt('Enter a number');
+var result = (typeof input);
 
+alert(result);
 
-while (typeof input != "number"){
-    var imput = prompt('Enter a number');
+while ( result != 'string'){
+    alert(result);
+    imput = prompt('Enter only a number');
 }
 
-do {
-    i++;
+
+console.log(input);
+
+alert(input + 'Hi');
+
+for (var i = 0; i < input; i++){
     console.log(words.toLowerCase);
-} while (count < input)
+}
