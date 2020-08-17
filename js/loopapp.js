@@ -1,4 +1,4 @@
-var words = prompt('Type in some words');
+var words = item;
 
 var input = prompt('Enter a number');
 var result = (typeof input);
