@@ -1,4 +1,5 @@
- 'use strict';
+/*
+'use strict';
 var today = new Date();
 
 var hourNow = today.getHours();
@@ -23,6 +24,7 @@ function sayHello(userName)
 {
     alert('hello ' + userName + ' click ok to proceed');
 }
+
 document.getElementById('greeting-placeholder').textContent = greeting + " " + userName;
 
 document.getElementById('personal-hello').textContent = "Hello " + userName + " this is my page it isn't much but I will continue to add to this site, thanks for coming to my page and have a nice day!";
@@ -30,3 +32,4 @@ document.getElementById('personal-hello').textContent = "Hello " + userName + " 
 document.getElementById('math').textContent = " 5 * 6 = " + math +" The website did this equation itself";
 
 sayHello(userName);
+*/
